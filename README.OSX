@@ -18,10 +18,7 @@ documentation. Alternatively, install the prerequisites and build
 manually from the sources.
 
 
-With Homebrew you can either run:
-  brew install [--HEAD] openocd (where optional --HEAD asks brew to
-                                 install the current git version)
-    or
+With Homebrew you need to run:
   brew install libtool automake libusb [libusb-compat] [hidapi] [libftdi]
     (to install the needed dependencies and then proceed with the
      manual building procedure)
